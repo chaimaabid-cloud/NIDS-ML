@@ -289,6 +289,22 @@ This file should be updated every evening with:
 
 ---
 
+## Agent skills
+
+### Issue tracker
+
+Issues tracked as GitHub Issues (github.com/chaimaabid-cloud/NIDS-ML), via gh CLI. PRs not used as a triage surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default label vocabulary (needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context — one CONTEXT.md + docs/adr/ at repo root. See `docs/agents/domain.md`.
+
+---
+
 ## Update Log
 - 2026-06-13: Week 1 complete, all pkl files saved, teammate backend running
 - 2026-06-22: CLAUDE.md created, GitHub repo set up, Ubuntu VM configured
